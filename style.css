@@ -121,11 +121,12 @@ main{
     color: #FFF;
 }   
 .catalog-div {   
-    margin: 20px;   
+    margin: 20px 80px;   
     display: flex;   
     flex-direction: column;   
     justify-content: space-between;   
     color: #FFF;
+    
 }   
 
 
