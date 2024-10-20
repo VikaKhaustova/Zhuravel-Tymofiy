@@ -1,0 +1,242 @@
+body {    
+    font-family: Inter;    
+    width: 100%;    
+    margin: 0;
+    background-image: linear-gradient(180deg, #28063D 0%, rgba(22, 21, 88, 0.00) 100%);  
+}  
+header{  
+    position: relative;  
+    display: flex;  
+    height: 840px;  
+    flex-shrink: 0;  
+    justify-content: center;  
+   background-image: radial-gradient(circle at 82% 63%, rgba(183, 183, 183,0.09) 0%, rgba(183, 183, 183,0.09) 84%,transparent 84%, transparent 100%),radial-gradient(circle at 88% 98%, rgba(232, 232, 232,0.07) 0%, rgba(232, 232, 232,0.07) 15%,transparent 15%, transparent 100%),radial-gradient(circle at 77% 83%, rgba(252, 252, 252,0.05) 0%, rgba(252, 252, 252,0.05) 5%,transparent 5%, transparent 100%),radial-gradient(circle at 64% 0%, rgba(140, 140, 140,0.05) 0%, rgba(140, 140, 140,0.05) 54%,transparent 54%, transparent 100%),radial-gradient(circle at 57% 86%, rgba(241, 241, 241,0.07) 0%, rgba(241, 241, 241,0.07) 80%,transparent 80%, transparent 100%),radial-gradient(circle at 17% 93%, rgba(68, 68, 68,0.05) 0%, rgba(68, 68, 68,0.05) 82%,transparent 82%, transparent 100%),radial-gradient(circle at 85% 70%, rgba(10, 10, 10,0.02) 0%, rgba(10, 10, 10,0.02) 13%,transparent 13%, transparent 100%),linear-gradient(90deg, rgb(48, 62, 175),rgb(254, 18, 105));
+}  
+nav {   
+    position: absolute;   
+    top: 95%;   
+    display: flex;   
+    justify-content: space-around;   
+    flex-wrap: wrap;    
+    width: 100%;    
+}   
+.nav-link {   
+    color: #FFF;   
+    font-family: Inter;   
+    font-size: 24px;   
+    font-style: normal;   
+    font-weight: 400;   
+    line-height: normal;   
+    text-decoration: none; 
+    -webkit-text-stroke: 0.7px black;    
+}    
+.logo1 {   
+    position: absolute;   
+    top: 50%;   
+    color: #FFF;   
+    font-family: Inter;    
+    font-size: 75px;   
+    font-style: normal;   
+    font-weight: 400;   
+    line-height: normal;   
+    -webkit-text-stroke: 2px black;  
+  
+}   
+.nav-link:hover {   
+    font-weight: 900;   
+    color:rgb(11, 119, 161);   
+    transition: 1s ease-in;   
+
+} 
+main{
+    background-color: #28063D;
+
+}
+ 
+.info {   
+    display: flex;   
+    width: 100%;    
+    flex-wrap: wrap;    
+    justify-content: space-between;    
+    align-items: center;    
+    color: white;   
+}    
+.info-text {    
+    width: 40%;    
+    text-align: justify;    
+    color: white;    
+    margin-left: 7vw;    
+}    
+.info-text h1 {    
+    font-family: Roboto;    
+    font-size: 48px;    
+    font-style: normal;    
+    font-weight: 400;    
+    line-height: normal;    
+}    
+.info-text p {    
+    color: white;    
+    font-family: Roboto;    
+    font-size: 24px;    
+    font-style: normal;    
+    font-weight: 400;    
+    line-height: normal;    
+}    
+.info-img {    
+    width: 25vw;    
+    height: 25vw;    
+    margin-right: 35px;    
+}    
+  
+.name{
+    font-size: 32px;
+}
+.description{
+    font-size: 20px;
+}
+.sallary{
+    font-size: 24px;
+}
+.catalog23 {    
+    text-align: center;  
+    color: #FFF;  
+    font-size: 48px;
+}   
+.where_we{
+     color: #FFF;  
+    font-size: 48px;
+} 
+.text534  {    
+    text-align: center;    
+}   
+   
+.all-divs {   
+    display: flex;   
+    flex-wrap: wrap;   
+    justify-content: space-evenly;   
+    margin: 0 auto;   
+}   
+.catalog-info {   
+    text-align: left; 
+    color: #FFF;
+}   
+.catalog-div {   
+    margin: 20px;   
+    display: flex;   
+    flex-direction: column;   
+    justify-content: space-between;   
+    color: #FFF;
+}   
+
+
+.catalog-img{
+    width: 325px;
+    height: 250px;
+}
+
+.order {   
+    text-decoration: none;   
+    background: linear-gradient(180deg, #000 0%, #F00 100%);  
+    color: #FFF;   
+    font-family: Roboto;   
+    font-size: 20px;   
+    font-style: normal;   
+    font-weight: 700;   
+    line-height: normal;   
+    text-align: center;   
+    padding: 10px 75px 10px 75px;   
+    display: block;   
+    box-shadow: 5px 5px 5px 3px #F00;   
+    margin: 5px 5px;   
+    border: 5px solid #00F;  
+    border-radius: 20px;  
+}
+
+.order:hover {   
+    font-weight: 900;   
+    color:rgb(11, 119, 161);   
+    transition: 0.2s ease-in; 
+    text-shadow: 5px 5px black;   
+}   
+   
+recall h2 {
+    text-align: center;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.recall-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 70px;
+    text-align: justify;
+}
+.rev-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text2{
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+.recall-img {
+    border-radius: 50%;    
+    width: 200x;    
+    height: 200px; 
+}
+
+.rev-div h3{
+    width: 500px;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 0;
+}
+.rev-div h6{
+    margin-top: 20px;
+    width: 500px;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+      
+.contacts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+}
+
+.sales{
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-size: 40px;
+}
+
+.sales img{
+    width: 190px;
+    height: 190px;
+}
